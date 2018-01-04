@@ -3,7 +3,6 @@
 ////////// STACK ////////////////////////////////////
 #include <iostream>
 #include <stack>
-#include <vector>
 using namespace std;
 
 int main() 
@@ -34,7 +33,7 @@ int main()
 	cout << endl;
 	
 	// Let's look at a stack of nodes. 
-	/* NOTICE: This is the same as priority queues, but there's no need for an operator, and the default stack creation (stack<Food*> foodpq;) is the only difference. */
+	/* NOTICE: This is the same as priority queues, but there's no need for an operator, and the default stack creation (stack<Food*> foodstack;) is the only difference. */
 	
 	struct Food
 		{
