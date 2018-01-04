@@ -3,7 +3,6 @@
 ////////// VECTOR ////////////////////////////////////
 #include <iostream>
 #include <algorithm>
-#include <vector>
 using namespace std;
 
 // Pass by reference
@@ -24,7 +23,9 @@ void Print(vector< vector<int> > &inceptionvec)
 
 int main() 
     {
-    cout << "\nC++ Vector Code," << endl;
+    cout << "\nC++ Vector Code" << endl;
+    
+    /* Vectors are a basic unit of data storage. Use it instead of array. */
     
     // Create a vector
     vector<int> myvec;
@@ -80,3 +81,4 @@ int main()
 	
 	return 0;
     }
+///////////////////////////////////////////////////////
