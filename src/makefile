@@ -1,6 +1,5 @@
 all:
-	g++ main.cpp -std=c++11 -o run
-	./run
+	echo "Call make for array, vector, pq, queue, stack, set, or umap."
 array:
 	g++ array.cpp -std=c++11 -o run
 	./run
@@ -18,9 +17,6 @@ stack:
 	./run
 set:
 	g++ set.cpp -std=c++11 -o run
-	./run
-uset:
-	g++ uset.cpp -std=c++11 -o run
 	./run
 umap:
 	g++ umap.cpp -std=c++11 -o run
